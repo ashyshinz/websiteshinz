@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: "Spectral", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .all-content {
+        background: radial-gradient(circle at 5.3% 17.2%, rgb(255, 208, 253) 0%, rgb(255, 237, 216) 90%);
+
+      }
+
+    html::-webkit-scrollbar-track{
+        background: transparent;
+
+    }
+
+    html::-webkit-scrollbar-thumb{
+        background: darksalmon;
+        border-radius: 10px;
+    }
+ 
+    html::-webkit-scrollbar{
+        width: 10px;
+
+    }
+
+    /*navbar top start*/
+    .navbar-top {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+    
+.logo h3{
+    font-weight: bold;
+    margin-left: 300px;
+
+  
+}
+@media screen and (max-width:400px){
+    .logo h3{
+        font-size:  20px;
+    }
+
+}
+
+
+
+
+    /*navbar top end*/
+
+    /*navbar start*/
+    #navbar{
+        background-color: mistyrose;
+    }
+    #logo {
+        width: 160px;
+        margin-left: 90px;
+        font-style: italic;
+        font-weight: 700;
+        color: #dd7fa9;
+
+    }
+    .navbar-nav{
+        margin-left: 40px;
+    }
+    .nav-item .nav-link{
+        color:darksalmon;
+        margin-left: px;
+        font-weight: bold;
+        transition: 0.5s;
+        
+    }
+    .nav-item .nav-link:hover {
+        background:#f7f5f2;
+        border-radius: 5px;
+        color: darksalmon;
+    }
+    .navbar.light .navbar.nav .nav-link:active {
+        color: black;
+    }
+    
+    /*navbar end*/
+
+     body {
+        line-height: 1.8;
+        font-size: 15px;
+        
+
+     }
+
+     h1,h2,h3,h4,h5,h6 {
+        font-weight:700;
+        font: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: lightcoral;
+     }
+
+     small {
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: 700;
+     }
+
+     section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*resume start*/
+
+
+  
+  
+  
+
+
+
+ 

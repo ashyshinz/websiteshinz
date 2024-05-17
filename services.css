@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: "Spectral", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .all-content {
+        background: radial-gradient(circle at 5.3% 17.2%, rgb(255, 208, 253) 0%, rgb(255, 237, 216) 90%);
+
+      }
+
+    html::-webkit-scrollbar-track{
+        background: transparent;
+
+    }
+
+    html::-webkit-scrollbar-thumb{
+        background: darksalmon;
+        border-radius: 10px;
+    }
+ 
+    html::-webkit-scrollbar{
+        width: 10px;
+
+    }
+
+    /*navbar top start*/
+    .navbar-top {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+    
+.logo h3{
+    font-weight: bold;
+    margin-left: 300px;
+
+  
+}
+@media screen and (max-width:400px){
+    .logo h3{
+        font-size:  20px;
+    }
+
+}
+
+
+
+
+    /*navbar top end*/
+
+    /*navbar start*/
+    #navbar{
+        background-color: mistyrose;
+    }
+    #logo {
+        width: 160px;
+        margin-left: 90px;
+        font-style: italic;
+        font-weight: 700;
+        color: #dd7fa9;
+
+    }
+    .navbar-nav{
+        margin-left: 40px;
+    }
+    .nav-item .nav-link{
+        color:darksalmon;
+        margin-left: px;
+        font-weight: bold;
+        transition: 0.5s;
+        
+    }
+    .nav-item .nav-link:hover {
+        background:#f7f5f2;
+        border-radius: 5px;
+        color: darksalmon;
+    }
+    .navbar.light .navbar.nav .nav-link:active {
+        color: black;
+    }
+    
+    /*navbar end*/
+
+     body {
+        line-height: 1.8;
+        font-size: 15px;
+        
+
+     }
+
+     h1,h2,h3,h4,h5,h6 {
+        font-weight:700;
+        font: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: lightcoral;
+     }
+
+     small {
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: 700;
+     }
+
+     section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+     }
+
+     body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    
+    header {
+        background-color: #ffe6f2;
+        text-align: center;
+        padding: 40px 0;
+        position: relative;
+        border: 2px solid #ff69b4; /* Add a border with a pink color */
+        border-radius: 15px; /* Add border radius for a softer look */
+      }
+      
+      header h1 {
+        margin: 0;
+        font-size: 3em;
+        font-weight: bold;
+        color: #ff69b4;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        letter-spacing: 2px;
+      }
+      
+      header p {
+        margin: 10px 0 0;
+        font-size: 1.3em;
+        color: #666;
+        font-style: italic;
+      }
+      
+      header::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to bottom right, #ffb6c1, #ffe6f2);
+        z-index: -1;
+        border-radius: 0 0 0 90%;
+      }
+    
+    .services {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    
+    .service {
+        background-color: #F3D0D7;
+        border: 1px solid #FF90BC;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px;
+        width: 30%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .service h2 {
+        color: #A79277 ;
+    }
+    
+    .service p {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+    
+    .service ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .service ul li {
+        background: url('images/Pink\ GetHabit\ app\ icon.jpeg') no-repeat left center;
+        background-size: 20px;
+        padding-left: 30px;
+        margin: 10px 0;
+    }
+    
+
+
+
+
+
+
+
+
+
+      /*services end*/
